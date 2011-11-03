@@ -3,10 +3,6 @@
 	if(!isset($_GET['s'])) {
 		$_GET['s']=0;
 	}
-
-	if(file_exists("../GameEngine/config.php")){
-	$_GET['s']=6;
-	}
  
 ?>
  
